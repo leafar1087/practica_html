@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de prueba</title>
+    <!--para agregar el ícono el enlace corto es link:favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="images/">
+</head>
+<body>
+<!--la etiqueta span nos prmite dar estilo a un texto en el css-->
+    <script src="js/main.js"></script>
+    <h1>Hola mundo</h1>
+    <a href="pagina.html">Ir a página con estilo CSS</a>
+    <h2>Subtítulo del artículo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, <b>adipisicing elit. Officiis</b>, tenetur beatae <i>rerum vel voluptatibus ab</i>, 
+        cupiditate temporibus nihil quo perspiciatis maxime fugiat natus ullam provident soluta cumque unde quisquam 
+        incidunt!</p>
+    <a href="https://google.com.pe" target="_blank">Ir a Google</a>
+    <a href="images/portafolio4.png">Ir a la imagen</a>
+    <hr/>
+
+    <h2>Subtítulo del artículo - cita de autor</h2>
+    <p>
+    <!--Para agregar citas de autores considerar las etiquetas cite y blockquote-->
+        <cite>Rafael A. Perez Llorca</cite>
+        <blockquote>Lorem ipsum dolor sit amet consectetur, <strong>adipisicing elit. Officiis</strong>, tenetur beatae rerum vel voluptatibus ab, 
+        cupiditate temporibus nihil quo perspiciatis maxime fugiat natus ullam provident soluta cumque unde quisquam 
+        incidunt!</blockquote>
+    </p>
+    <hr/>
+    <h2>Subtítulo del artículo - Listas</h2>
+
+    <p><b>Ejemplo de listas desordenadas</b></p>
+    <!--para ello utilice el corto ul>li*5-->
+    <ul>
+        <li>Item #01</li>
+        <li>Item #02</li>
+        <!--<li>
+            <ul>Sub Item #01</ul>
+            <ul>Sub Item #02</ul>
+        </li>-->
+        <li>Item #03</li>
+        <li>Item #04</li>
+        <ul>
+            <li>Sub Item #05</li>
+            <li>Sub Item #06</li>
+        </ul>
+        <li>Item #05</li>
+    </ul>
+
+    <p><b>Ejemplo de listas ordenadas</b></p>
+    <ol>
+        <li>Item #01</li>
+        <li>Item #02</li>
+        <!--<li>
+            <ul>Sub Item #01</ul>
+            <ul>Sub Item #02</ul>
+        </li>-->
+        <li>Item #03</li>
+        <li>Item #04</li>
+        <ul>
+            <li>Sub Item #05</li>
+            <li>Sub Item #06</li>
+        </ul>
+        <li>Item #05</li>
+    </ol>
+
+    <p><b>Ejemplo de listas con enlaces</b></p>
+    <!--para ello utilice el corto ul>li*5>a-->
+    <ul>
+        <li><a href="#">Item #06</a></li>
+        <li><a href="#">Item #07</a></li>
+        <li><a href="#">Item #08</a></li>
+        <li><a href="#">Item #09</a></li>
+        <li><a href="#">Item #10</a></li>
+    </ul>
+    <hr/>
+
+    <h2>Subtítulo del artículo - Imágenes</h2>
+    <h3>Artículo número 1 con imagen</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, <b>adipisicing elit. Officiis</b>, tenetur beatae <i>rerum vel voluptatibus ab</i>, 
+        cupiditate temporibus nihil quo perspiciatis maxime <i>fugiat natus ullam provident soluta</i> cumque unde quisquam 
+        incidunt!</p>
+    <img src="images/portafolio4.png" alt="Imagen de portafolio4" title="Imagen de portafolio4_">
+    <h3>Artículo número 2 con imagen redimensionada con width y height</h3>
+    <!--El width es el ancho y el height es el alto-->
+    <p>Lorem ipsum dolor sit amet consectetur, <b>adipisicing elit. Officiis</b>, tenetur beatae <i>rerum vel voluptatibus ab</i>, 
+        cupiditate temporibus nihil quo perspiciatis maxime <i>fugiat natus ullam provident soluta</i> cumque unde quisquam 
+        incidunt!</p>
+    <img src="images/portafolio3.png" alt="Imagen de portafolio3" width="120" height="120" title="Imagen de portafolio3_">
+    <h3>Artículo número 3 con imagen</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, <b>adipisicing elit. Officiis</b>, tenetur beatae <i>rerum vel voluptatibus ab</i>, 
+        cupiditate temporibus nihil quo perspiciatis maxime <i>fugiat natus ullam provident soluta</i> cumque unde quisquam 
+        incidunt!</p>
+    <img src="images/portafolio5.png" alt="Imagen de portafolio5" title="Imagen de portafolio5_">
+    <hr/>
+
+    <h2>Subtítulo del artículo - Tablas</h2>
+    <!--He creado una tabla de 3 filas(tr) y 2 columnas(td)-->
+    <table>
+        <tr>
+            <td>Elemento #01</td>
+            <td>Elemento #02</td>
+        </tr>
+        <tr>
+            <td>Elemento #03</td>
+            <td>Elemento #04</td>
+        </tr>
+        <tr>
+            <td>Elemento #05</td>
+            <td>Elemento #06</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <h2>Subtítulo del artículo - Formularios</h2>
+
+    <form action="">
+        <!--en el for recibo el mismo nombre del id, si le doy clic en el label, me direcciona al text-->
+        <label for="nombre">Ingresa tu nombre:</label>
+        <input id="nombre" type="text" placeholder="Escribe tu nombre" maxlength="8">
+        <br/>
+        <label for="correo">Ingresa tu correo electrónico:</label>
+        <input type="email" name="" id="correo" placeholder="Escribe tu correo electrónico">
+        <br/>
+        <label for="contraseña">Ingresa tu contraseña:</label>
+        <input type="password" name="" id="contraseña" placeholder="Escribe tu contraseña">
+        <br/>
+        <label for="pais">Selecciona tu país</label>
+        <select name="" id="pais">
+            <option value="Perú">Perú</option>
+            <option value="México">México</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <br/>
+        <label for="fec_nacimiento">Ingresa tu fecha de nacimiento:</label>
+        <input type="date" name="" id="fec_nacimiento">
+        <br/>
+        input
+        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar consulta">
+    </form>    
+
+
+</body>
+</html>

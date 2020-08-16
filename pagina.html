@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con estilo</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/portafolio3.png" alt="logotipo" width="70">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <main>
+        <!--la clase wrapper es un contenedor que me permite poner mas secciones, para las principales uso el main y para laterales
+        el aside-->
+        <section class="wrapper">
+            <!--para poder dar nombre a mi clase utilizo el atajo section.main donde main es el nombre de mi clase-->
+            <section class="main">
+                <!--mejor uso article para la optimizacion de busauedas en google-->
+                <article>
+                    <h2>Artículo número 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quidem quia esse, adipisci totam facere 
+                       pariatur nemo cum ex asperiores maiores enim alias voluptatum delectus amet, minima placeat beatae et.</p>
+                </article>
+                <article>
+                    <h2>Artículo número 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quidem quia esse, adipisci totam facere 
+                       pariatur nemo cum ex asperiores maiores enim alias voluptatum delectus amet, minima placeat beatae et.</p>
+                </article>
+            </section>
+            <aside>
+               <h3>Artículos secundarios</h3> 
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab modi illum, cumque eveniet iure ipsum mollitia,
+                  error eligendi rerum velit. Qui itaque quam obcaecati ut perferendis deleniti tempora cum!</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rafael Pérez - leafar1087 2020</p>
+    </footer>
+    
+</body>
+</html>
